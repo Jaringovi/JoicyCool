@@ -43,7 +43,7 @@ public class Main {
         visited[maxN][maxN] = true;
         DFS(maxN, maxN, 0, 1.0);
 
-        System.out.printf("%.10f%n", busyCnt); // 소수점 10자리까지 출력
+        System.out.printf("%.10f%n", busyCnt);
 
         scanner.close();
     }
